@@ -11,9 +11,44 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'musicTool',
-        short_name: 'MT',
-        theme_color: '#ffffff'
+        name: 'Music Tool - 乐谱笔记工具',
+        short_name: 'MusicTool',
+        description: '乐谱查看、笔记标注、节拍器工具',
+        theme_color: '#667eea',
+        background_color: '#ffffff',
+        display: 'standalone',
+        orientation: 'any',
+        icons: [
+          {
+            src: './logo.png',
+            sizes: '192x192',
+            type: 'image/png'
+          },
+          {
+            src: './logo.png',
+            sizes: '512x512',
+            type: 'image/png'
+          },
+          {
+            src: './logo.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable'
+          }
+        ],
+        screenshots: [
+          {
+            src: './logo.png',
+            sizes: '512x512',
+            type: 'image/png',
+            form_factor: 'wide'
+          },
+          {
+            src: './logo.png',
+            sizes: '512x512',
+            type: 'image/png'
+          }
+        ]
       }
     })
   ],
