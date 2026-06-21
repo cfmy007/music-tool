@@ -21,31 +21,7 @@ export default defineConfig({
         icons: [
           {
             src: './logo.png',
-            sizes: '192x192',
-            type: 'image/png'
-          },
-          {
-            src: './logo.png',
-            sizes: '512x512',
-            type: 'image/png'
-          },
-          {
-            src: './logo.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'maskable'
-          }
-        ],
-        screenshots: [
-          {
-            src: './logo.png',
-            sizes: '512x512',
-            type: 'image/png',
-            form_factor: 'wide'
-          },
-          {
-            src: './logo.png',
-            sizes: '512x512',
+            sizes: '200x200',
             type: 'image/png'
           }
         ]
